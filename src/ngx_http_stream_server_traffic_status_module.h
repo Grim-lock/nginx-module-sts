@@ -73,6 +73,7 @@
     "\"port\":%ui,"                                                            \
     "\"protocol\":\"%V\","                                                     \
     "\"connectCounter\":%uA,"                                                  \
+    "\"activeCounter\":%uA,"                                                  \
     "\"inBytes\":%uA,"                                                         \
     "\"outBytes\":%uA,"                                                        \
     "\"responses\":{"                                                          \

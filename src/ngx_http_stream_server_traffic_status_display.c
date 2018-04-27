@@ -523,6 +523,7 @@ ngx_http_stream_server_traffic_status_display_set_server_node(
     buf = ngx_sprintf(buf, NGX_HTTP_STREAM_SERVER_TRAFFIC_STATUS_JSON_FMT_SERVER,
                       &dst, stsn->port, &protocol,
                       stsn->stat_connect_counter,
+                      stsn->stat_active_counter,
                       stsn->stat_in_bytes,
                       stsn->stat_out_bytes,
                       stsn->stat_1xx_counter,
